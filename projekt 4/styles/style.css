@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1ABC9C;
+    height: 70px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+a:not(:last-child) {
+    margin-right: 20px;
+}
+
+.social-icon:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* О нас */
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-info {
+    padding: 0 65px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.about-descr {
+    font-size: 20px;
+    text-align: justify;
+    /* выравнивание по ширине */
+}
+
+/* Наши проекты */
+.projects {
+    background-color: #DCFFEB;
+    padding: 125px 0;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.projects-list {
+    display: flex;
+    gap: 35px;
+}
+
+.projects-item {
+    width: calc(100% / 3 - 17px);
+}
+
+footer {
+    padding: 76px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-bottom: 55px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-item {
+    width: calc(100% / 4);
+
+    display: grid;
+    place-items: center;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-family: 'Oswald';
+    text-align: justify;
+    color: #999999;
+    margin-bottom: 25px;
+}
+
+.footer-img {
+    margin-bottom: 36px;
+}
+
+.footer-descr {
+    font-size: 24px;
+    font-family: 'Oswald';
+    display: block;
+    margin: auto;
+    color: black;
+    font-weight: 500;
+   
+    
+}
+
+.footer-descr2 {
+    font-size: 24px;
+    font-family: 'Oswald';
+    color: #F7654A;
+}

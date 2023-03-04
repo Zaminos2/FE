@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    height: 60px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 3px solid rgb(16, 103, 235);
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    font-size: 20px;
+    border: 3px solid rgb(28, 107, 209);
+    padding: 10px 15px;
+    text-align: center;
+    width: min-content;
+}
+td{
+    font-size: 20px;
+    border: 3px solid rgb(28, 107, 209);
+    padding: 10px 15px;
+    width: fit-content;
+}
+img{
+    width: 30px;
+    height: 20px;
+}
+body{
+    background-color: rgb(151, 240, 240);
+}

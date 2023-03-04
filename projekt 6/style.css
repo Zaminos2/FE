@@ -1,0 +1,24 @@
+.scale{
+    width: 500px;
+    height: 10px;
+    background-color: grey;
+}
+.inner-scale{
+    height: 10px;
+    width: 300px;
+    background-color: black;
+}
+.item,.item1{
+    /* position: absolute; */
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    
+}
+.item1{
+    position: absolute;
+    background-color: rgb(245, 25, 25);
+    left: 50px;
+    
+ 
+}

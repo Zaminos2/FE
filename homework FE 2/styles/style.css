@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 420px;
+    height: 426px;
+    
+    background-color: white;
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+
+   
+    padding: 16px;
+}
+header{
+    width: 100%;
+    height: 24px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+}
+.close-button{
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.form-wrapper{
+    padding: 0px 16px 16px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+    background-color: white;
+}
+.form-title{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    height: 48px;
+}
+input[name="email"]{
+    border: 1px solid #FFE44D;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    outline:none;
+    padding: 14px 16px
+}
+input[name="password"]{
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 1px solid #CFD8DC;
+    outline:none;
+}
+placeholder{
+    font-size: 16px;
+    color: #7B8E98;
+   
+}
+input[class=registration]{
+    border-radius: 12px;
+    background-color:#FFE44D;
+    border: none;
+    outline: none;
+    margin-bottom: 8px;
+}
+input[class=enter]{
+    border-radius: 12px;
+    outline: none;
+    border-color: #CFD8DC;
+    background-color: white;
+}
