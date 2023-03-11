@@ -111,7 +111,7 @@ a{
 /* company */
 .company-wrapper{
     max-width: 1512px;
-    padding: 0 204px;
+    padding: 0 102px;
 }
 .about-us{
     padding: 100px 185px;
@@ -119,13 +119,68 @@ a{
 }
 .company-info{
     display: flex;
+    justify-content: space-between;
+}
+.info-txt{
+    width: 45%;
+}
+.about{
+    font-weight: 900;
+    font-size: 24px;
+    color: #BDBDBD;
+
+}
+.company{
+    color: #333333;
+    ont-weight: 900;
+    font-size: 48px;
+    margin-top: 40px;
+}
+.company-name{
+    color: #005FA3;
+   font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+.company-text{
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+
 }
 .info-img{
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 
 }
+
 .info-item{
-    
+    width: 45%;
+    background-color: #EBEBEB;
+    padding: 30px 40px;
 }
+.number{
+    font-weight: 900;
+    font-size: 55px;
+    color: #000000;
+
+}
+.sucseses{
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    margin: 30px 0 40px;
+
+}
+.all-cases{
+    color: #005FA3;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+/* .info-item:hover{
+    background-color: #005FA3;
+    
+} */
