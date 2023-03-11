@@ -1,24 +1,36 @@
-.scale{
-    width: 500px;
-    height: 10px;
-    background-color: grey;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.inner-scale{
-    height: 10px;
-    width: 300px;
-    background-color: black;
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
 }
-.item,.item1{
-    /* position: absolute; */
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    
+
+a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
 }
-.item1{
-    position: absolute;
-    background-color: rgb(245, 25, 25);
-    left: 50px;
-    
- 
+a:not(:last-child){
+    margin-right: 20px;
+}
+.item{
+    height: 100vh;
+}
+
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
 }

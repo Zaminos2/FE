@@ -1,0 +1,10 @@
+@media (max-width: 480px ) {
+    h1 {color: rgb(226, 177, 177);}
+
+}
+
+@media (max-width: 768px) {
+    .item {
+        width: 100%;
+    }
+}
