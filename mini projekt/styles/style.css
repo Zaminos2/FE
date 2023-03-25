@@ -132,7 +132,7 @@ a{
 }
 .company{
     color: #333333;
-    ont-weight: 900;
+    font-weight: 900;
     font-size: 48px;
     margin-top: 40px;
 }
@@ -156,7 +156,7 @@ a{
 
 }
 
-.info-item{
+.infoItem{
     width: 45%;
     background-color: #EBEBEB;
     padding: 30px 40px;
@@ -180,7 +180,12 @@ a{
     font-size: 14px;
     text-decoration-line: underline;
 }
-/* .info-item:hover{
-    background-color: #005FA3;
+.infoItem:hover .sucseses, .infoItem:hover .number, .infoItem:hover .all-cases{
+    color: white;
     
-} */
+    
+}
+.infoItem:hover{
+    background-color: #005FA3;
+
+}

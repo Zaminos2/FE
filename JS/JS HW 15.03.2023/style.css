@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red-sqare{
+    margin-bottom: 30px;
+}
+.red-push{
+    margin:0 610px 30px;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin:0 auto;
+}
+.red-2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.pink-sqare{
+    margin-bottom: 30px;
+}
+.pink-push{
+    margin:0 610px 30px;
+}
+.pink{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin:0 auto;
+}
+.pink-2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin:0 auto;
+
+}
+.blue-sqare{
+    margin-bottom: 30px;
+}
+.blue-push{
+    margin:0 610px 30px;
+}
+.blue{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin:0 auto;
+}
+.par-but {
+    margin:0 610px 30px;
+}
+.nat-btn{
+    margin:0 610px 30px;
+ 
+}
+.par-push{
+    font-size: 38px;
+    font-weight: 800;
+    color: blue;
+    text-align: center;
+}
+.par-blue{
+    font-size: 38px;
+    font-weight: 800;
+    color: blue;
+    text-align: center;
+}
+.par-green{
+    font-size: 38px;
+    font-weight: 800;
+    color: green;
+    text-align: center;
+}
